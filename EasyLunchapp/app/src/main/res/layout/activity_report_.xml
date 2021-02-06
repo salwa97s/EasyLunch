@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report_Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:layout_marginRight="15dp">
+        <Button
+            android:id="@+id/Report_btn_Add_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Manager"
+            android:textSize="20sp"
+            android:background="@drawable/btnframe"
+            android:layout_marginRight="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+        <Button
+            android:id="@+id/Report_btn_remove_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="20sp"
+            android:background="@drawable/btnframe"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Rec_Reports_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="2dp"
+    android:id="@+id/CV_FoodLO_id">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="5dp"
+        cardview:cardCornerRadius="3dp"
+        cardview:cardElevation="3dp"
+        cardview:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/CV_Img_id"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/hotdog"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left">
+                    <TextView
+                        android:id="@+id/CV_Name_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="food name"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:id="@+id/CV_Price_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        android:drawableRight="@drawable/shekel"
+                        android:drawablePadding="8dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp">
+                <Button
+
+                    android:id="@+id/CV_btn_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD"
+                    android:textSize="15dp"
+                    android:background="@drawable/btnadd"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

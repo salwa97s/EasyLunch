@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Begain.RegisterActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/ripp"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="0.6">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/RName_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="text"
+                android:background="@drawable/etshape"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="Name"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+
+            <EditText
+                android:id="@+id/REmail_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/etshape"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="Email"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/RPass_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="textPassword"
+                android:background="@drawable/etshape"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="Password"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/RCity_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="text"
+                android:background="@drawable/etshape"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="City"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+
+            <EditText
+                android:id="@+id/RSchool_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/etshape"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:hint="School"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Rcreate_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:text="CREATE"
+            android:textSize="20dp"
+            android:textColor="#2d3238"
+            android:paddingRight="70dp"
+            android:paddingLeft="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
