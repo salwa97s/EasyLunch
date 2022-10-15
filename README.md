@@ -12,8 +12,8 @@ Link : https://youtu.be/V22HkN8Oi7k
 The user must create a new account, </br>
 then they will be able to add their favorite food to the order. </br>
 the food is orgnazied with categories and simple UI for students. </br>
-the orders will be showen with the price and the student details </br>
-with opetion to remove and place the order.</br>
-the application have another option to build a healty box with only healty options.</br>
-admin mode that allowd the users with this role to view the whole orders that we placed with other accounts.</br>
+the orders will be showen with the price and the student details, </br>
+with option to remove unneeded stuff and send the order.</br>
+the application have another option to build a healty box which contains only healty options.</br>
+Admin mode that allowd the users having this role to view the whole orders which were placed with other accounts.</br>
 
